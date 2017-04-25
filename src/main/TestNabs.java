@@ -21,8 +21,5 @@ public class TestNabs {
 	  		  }
 	  		  @Override public void onCancelled(FirebaseError error) {}
 		});
-		while(!value.trim().equals("exit"));
-		System.exit(0);
-		return;
 	}
 }
