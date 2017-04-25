@@ -1,1 +1,1 @@
-worker: sh target/bin/nabs_off
+worker: sh target/bin/nabs
