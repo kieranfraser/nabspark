@@ -23,11 +23,11 @@
             <assembleDirectory>target</assembleDirectory>
             <programs>
                 <program>
-                    <mainClass>TestNabs</mainClass>
+                    <mainClass>main.TestNabs</mainClass>
                     <name>nabs</name>
                 </program>
                 <program>
-                    <mainClass>OneOffProcess</mainClass>
+                    <mainClass>main.OneOffProcess</mainClass>
                     <name>oneoff</name>
                 </program>
             </programs>

@@ -8,8 +8,9 @@ import com.firebase.client.ValueEventListener;
 public class TestNabs {
 
 	static String value = "";
-	
+
 	public static void main(String[] args){
+		System.out.println("kieran");
 		Firebase database = new Firebase("https://nabspark-f2f26.firebaseio.com/");
 		database.child("message").addValueEventListener( new ValueEventListener() {
 	  		  @Override
@@ -21,5 +22,7 @@ public class TestNabs {
 	  		  }
 	  		  @Override public void onCancelled(FirebaseError error) {}
 		});
+		while(!value.trim().equals("exit"));
+		System.exit(0);
 	}
 }
