@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>TestNabs</groupId>
+  <artifactId>TestNabs</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170425152847</lastUpdated>
+  </versioning>
+</metadata>
